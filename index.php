@@ -5,7 +5,7 @@ use Cowsayphp\Farm;
 
 header('Content-Type: text/plain');
 
-$text = "Set a CUIABA by adding ?message=<message here> to the URL";
+$text = "Set a by adding ?message=<message here> to the URL";
 if(isset($_GET['message']) && $_GET['message'] != '') {
 	$text = htmlspecialchars($_GET['message']);
 }
